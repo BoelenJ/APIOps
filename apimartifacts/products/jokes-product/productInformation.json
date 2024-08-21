@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "displayName": "Jokes product",
+    "description": "Demo for apiops",
+    "approvalRequired": false,
+    "state": "notPublished",
+    "subscriptionRequired": true
+  }
+}
