@@ -18,7 +18,29 @@
         "operationId": "get-a-random-joke",
         "responses": {
           "200": {
-            "description": "null"
+            "description": "A random joke will be returned",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "setup": {
+                      "type": "string"
+                    },
+                    "punchline": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -40,10 +62,10 @@
   },
   "security": [
     {
-      "apiKeyHeader": [ ]
+      "apiKeyHeader": []
     },
     {
-      "apiKeyQuery": [ ]
+      "apiKeyQuery": []
     }
   ]
 }
