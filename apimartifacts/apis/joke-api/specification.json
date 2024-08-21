@@ -14,10 +14,11 @@
     "/random": {
       "get": {
         "summary": "Get a random joke",
+        "description": "Get a random joke",
         "operationId": "get-a-random-joke",
         "responses": {
           "200": {
-            "description": null
+            "description": "null"
           }
         }
       }
