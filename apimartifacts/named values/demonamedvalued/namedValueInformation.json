@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "demo-named-value",
+    "secret": false,
+    "tags": [],
+    "value": "Hello world"
+  }
+}
